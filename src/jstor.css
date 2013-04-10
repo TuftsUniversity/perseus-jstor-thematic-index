@@ -1,0 +1,87 @@
+body {
+  font-family: Calibri, Verdana;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.header {
+  padding: 20px;
+  width: 100%;
+  font-family: Georgia;
+  font-size: xx-large;
+  border-bottom: solid black 1px;
+}
+.header a {
+  color: black;
+  text-decoration: none;
+}
+.header a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.title {
+  font-size: large;
+  margin: 20px;
+}
+.note {
+  margin: 20px;
+  width: 75%;
+}
+.word1 { color: #a55; font-size: 28%;}
+.word2 { color: #955; font-size: 36%;}
+.word3 { color: #755; font-size: 44%;}
+.word4 { color: #755; font-size: 52%;}
+.word5 { color: #544; font-size: 60%;}
+.word6 { color: #333; font-size: 68%;}
+.word7 { color: #222; font-size: 76%;}
+.word8 { color: #111; font-size: 84%;}
+.word9 { color: #000; font-size: 92%;}
+.word10 { color: #000; font-size: 100%;}
+
+.side_box {
+  float: right;
+  width: 26%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #cccccc;
+}
+.journal {
+  margin: 15px;
+  overflow: auto;
+}
+.topicwords {
+  margin: 3px;
+  text-decoration: none;
+  color: black;
+}
+.topicwords:hover { color: #3333FF; }
+.topic {
+  width: 60%;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border-top: solid #DDDDDD 1px;
+  overflow: auto;
+}
+.article {
+  width: 60%;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  text-indent: -20px;
+  overflow: auto;
+}
+.articleheader {
+  margin: 30px;
+  padding-left: 20px;
+  font-size: large;
+  border-left: solid #777 3px;
+}
+.booktitle { 
+  font-style: italic;
+}
+td.n { text-align: right; }
+.timeseries { color: #777; margin: 3px; }
+
+.actions { float: right; }
+
+.clearing { clear: both; }
+
